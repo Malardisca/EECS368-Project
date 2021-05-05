@@ -1,0 +1,13 @@
+I wrote the five-in-a-row in JavaScript, and I also have HTML and CSS to play in chrome and decorate the page. 
+
+My Program is also a chess type of game that needs a chessboard to place those pieces, it isn't as simple as Tic-tac-toe which only is 3*3 board and can only have 2^9 possibility, I wrote it in 21*21 board(start from 1), and user can change the number as many as their want by going to the js file.
+
+I think the pattern matching is quite relative since there's plenty of space and pieces to check whether any of it fits the condition that 5 pieces in a line. and there are two lists from player1 and player2 as well, so we can use construction and deconstruction to check whether players' pieces match the requirement.
+
+Data declarations also played a big role in the project by defining the different situations, which is a big work, like the data that the player created. for example, to define a function that can show player won. or assign pieces' location and represent which player.
+
+The program also relates to Trees to store player historical move and can be recalled when a player has a second though and change their move. Not only can go backward, if another player not agrees, it can also go forward which means go back to the same place where another player had already go backward. But just like the win.mp3 music, there's some error occurs and been abandoned.
+
+The third is the functions and data structures, which introduce how to pass user input to functions and return values from functions, and store value in data structures(lists), and a function that perform data structures and store value in a defined order.
+
+But the rest of the rules have lots of similarities. like, instead of 3 in a line, the game requires 5 in a line, both opposite and hypotenuse are okay. I also set some reset/initial bottom in case someone wanna a replay or restart. 
